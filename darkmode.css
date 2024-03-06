@@ -38,15 +38,15 @@ label:active::after{
     width:30px;
 }
 
-.background {
+/* .background {
     width: 100vw;
     height: 100vw;
      background: #f0dbdb;
     z-index: -1;
     /*position: absolute;*/
-    transition: 0.3s; 
-}
-input:checked + label + .background {
+    /* transition: 0.3s;  */
+/* }  */
+input:checked + label + body {
     background: #242424;
 }
 .dark-mode {

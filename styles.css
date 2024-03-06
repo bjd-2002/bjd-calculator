@@ -1,10 +1,11 @@
-html, body {
+/* html{
+    
+    color: black;
+} */
+body{
     height: 100%;
     width: 100%;
-    color: black;
-}
-body{
-    color: black;
+    background-color: rgb(222, 223, 160);
 }
 .button {
     padding: 20px;
