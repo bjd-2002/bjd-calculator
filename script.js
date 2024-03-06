@@ -38,4 +38,5 @@ Array.from(buttons).forEach((button)=>{
 function toggle() {
     var element = document.body;
     element.classList.toggle("dark-mode");
+    // document.body.style.color="green";
 }

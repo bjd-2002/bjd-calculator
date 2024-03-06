@@ -16,10 +16,11 @@ body{
 .row{
     margin: 8px;
 }
-.row .input{
-    width: 291px ;
-    font-size: 20px;
-    margin:0px;
+.row .input {
+    width: 291px;
+    height: 40px;
+    font-size: 32px;
+    margin: 0px;
     padding: 10px 0px;
     border: 2px solid black;
     border-radius: 5px;
