@@ -1,0 +1,55 @@
+label{
+    position: absolute;
+    width: 45px;
+    height: 22px;
+    right: 20px;
+    top: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+label:after{
+    position: absolute;
+    content: '';
+    width:20px;
+    height: 20px;
+    left: 1px;
+    top: 1px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #ffcc89, #d8860b);
+    cursor: pointer;
+    transition: 0.3s;
+}
+input{
+    width: 0;
+    height: 0;
+    /*visibility: hidden; */
+}
+input:checked + label {
+    background: #242424;
+}
+input:checked + label:after {
+    left : 45px;
+    transform: translateX(-100%);
+    background: linear-gradient(180deg, #777,#3a3a3a);
+}
+label:active::after{
+    width:30px;
+}
+
+.background {
+    width: 100vw;
+    height: 100vw;
+     background: #f0dbdb;
+    z-index: -1;
+    /*position: absolute;*/
+    transition: 0.3s; 
+}
+input:checked + label + .background {
+    background: #242424;
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+}
