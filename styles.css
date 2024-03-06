@@ -13,6 +13,7 @@ body{
     border-radius: 9px;
     cursor: pointer;
     font-size: 27px;
+    box-shadow: 3px 3px 3px #16161680;
 }
 .row{
     margin: 8px;
@@ -25,4 +26,5 @@ body{
     padding: 10px 0px;
     border: 2px solid black;
     border-radius: 5px;
+    box-shadow: 5px 5px 5px #16161680;
 }
