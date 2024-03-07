@@ -21,6 +21,9 @@ body{
 .input-row{
     padding: 9px 0px 50px 0px;
 }
+.input{
+    cursor: text;
+}
 .row .input {
     width: 293px;
     height: 66px;
