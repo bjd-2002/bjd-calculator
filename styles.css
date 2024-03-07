@@ -6,21 +6,24 @@ body{
     transition : 0.3s;
 }
 .button {
-    padding: 15px;
-    width: 66px;
+    padding: 7px;
+    width: 47px;
     margin: 0 3px;
     border: 2px solid black;
     border-radius: 9px;
     cursor: pointer;
-    font-size: 27px;
+    font-size: 23px;
     box-shadow: 3px 3px 3px #16161680;
 }
 .row{
     margin: 8px;
 }
+.input-row{
+    padding: 9px 0px 50px 0px;
+}
 .row .input {
-    width: 291px;
-    height: 40px;
+    width: 293px;
+    height: 66px;
     font-size: 32px;
     margin: 0px;
     padding: 10px 0px;
